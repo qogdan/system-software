@@ -1,0 +1,19 @@
+----------------------------------
+Relocation records: 
+----------------------------------
+Section:  |   Offset:  |  Type:   |  Symbol:  |  Addend: 
+----------------------------------
+----------------------------------
+Symbol table: 
+----------------------------------
+Label: |  Section:  |   Offset:  |  Local:   |  Defined:  |  Section Size: 
+----------------------------------
+isr  isr 0  LOCAL  true 8
+isr_terminal  isr 0  GLOBAL  true 0
+----------------------------------
+Sections content: 
+----------------------------------
+Section: isr
+00  e0  f0  92
+04  00  ee  91
+----------------------------------

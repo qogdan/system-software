@@ -1,0 +1,48 @@
+----------------------------------
+Relocation records: 
+----------------------------------
+Section:  |   Offset:  |  Type:   |  Symbol:  |  Addend: 
+----------------------------------
+----------------------------------
+Symbol table: 
+----------------------------------
+Label: |  Section:  |   Offset:  |  Local:   |  Defined:  |  Section Size: 
+----------------------------------
+mathAdd  math 0  GLOBAL  true 0
+mathSub  math 28  GLOBAL  true 0
+mathMul  math 56  GLOBAL  true 0
+mathDiv  math 84  GLOBAL  true 0
+math  math 0  LOCAL  true 112
+----------------------------------
+Sections content: 
+----------------------------------
+Section: math
+fc  2f  e0  81
+08  00  1e  92
+0c  00  2e  92
+00  20  11  50
+04  00  2e  93
+00  e0  f0  92
+04  00  ee  91
+fc  2f  e0  81
+08  00  1e  92
+0c  00  2e  92
+00  20  11  51
+04  00  2e  93
+00  e0  f0  92
+04  00  ee  91
+fc  2f  e0  81
+08  00  1e  92
+0c  00  2e  92
+00  20  11  52
+04  00  2e  93
+00  e0  f0  92
+04  00  ee  91
+fc  2f  e0  81
+08  00  1e  92
+0c  00  2e  92
+00  20  11  53
+04  00  2e  93
+00  e0  f0  92
+04  00  ee  91
+----------------------------------

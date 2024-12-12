@@ -1,0 +1,31 @@
+----------------------------------
+Relocation records: 
+----------------------------------
+Section:  |   Offset:  |  Type:   |  Symbol:  |  Addend: 
+----------------------------------
+.rela. isr
+isr 40  R_X86_64_32  value1  0
+----------------------------------
+Symbol table: 
+----------------------------------
+Label: |  Section:  |   Offset:  |  Local:   |  Defined:  |  Section Size: 
+----------------------------------
+value1  UNDEF 0  GLOBAL  false 0
+isr  isr 0  LOCAL  true 44
+isr_software  isr 0  GLOBAL  true 0
+----------------------------------
+Sections content: 
+----------------------------------
+Section: isr
+fc  1f  e0  81
+fc  2f  e0  81
+18  00  1f  92
+18  00  2f  92
+00  10  02  80
+04  00  2e  93
+04  00  1e  93
+00  e0  f0  92
+04  00  ee  91
+cd  ab  00  00
+00  00  00  00
+----------------------------------

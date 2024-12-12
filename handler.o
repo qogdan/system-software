@@ -1,0 +1,66 @@
+----------------------------------
+Symbol table: 
+----------------------------------
+Label: |  Section:  |   Offset:  |  Local:   |  Defined:  |  Section Size: 
+----------------------------------
+isr_timer  UNDEF 0  LOCAL  false 0
+isr_terminal  UNDEF 0  LOCAL  false 0
+isr_software  UNDEF 0  LOCAL  false 0
+handler  my_handler 0  GLOBAL  true 0
+my_handler  my_handler 0  LOCAL  true 136
+handle_timer  my_handler 72  GLOBAL  true 0
+handle_terminal  my_handler 80  GLOBAL  true 0
+handle_software  my_handler 88  GLOBAL  true 0
+finish  my_handler 44  LOCAL  true 0
+----------------------------------
+Sections content: 
+----------------------------------
+Section: my_handler
+fc  ff  ee  91
+00  e0  01  80
+fc  ff  ee  91
+00  e0  02  80
+00  00  12  90
+48  00  2f  92
+48  20  01  39
+48  00  2f  92
+48  20  01  39
+48  00  2f  92
+48  20  01  39
+00  e0  02  92
+04  00  ee  91
+00  e0  01  92
+04  00  ee  91
+04  00  0e  96
+00  00  fe  92
+08  00  ee  91
+2c  00  00  21
+2c  00  00  38
+2c  00  00  21
+24  00  00  38
+28  00  00  21
+1c  00  00  38
+02  00  00  00
+00  00  00  00
+03  00  00  00
+00  00  00  00
+04  00  00  00
+00  00  00  00
+00  00  00  00
+00  00  00  00
+00  00  00  00
+00  00  00  00
+----------------------------------
+Relocation records: 
+----------------------------------
+Section:  |   Offset:  |  Type:   |  Symbol:  |  Addend: 
+----------------------------------
+.rela. my_handler
+my_handler 68  R_X86_64_32  handle_timer  0
+my_handler 78  R_X86_64_32  handle_terminal  0
+my_handler 88  R_X86_64_32  handle_software  0
+my_handler 90  R_X86_64_32  isr_timer  0
+my_handler 98  R_X86_64_32  finish  2c
+my_handler a0  R_X86_64_32  isr_terminal  0
+my_handler a8  R_X86_64_32  isr_software  0
+----------------------------------
